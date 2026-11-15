@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vẻ đẹp bài thơ Sang Thu</title>
+
+<style>
+
+/* Định dạng chung */
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f3eb;
+    color: #443b32;
+    line-height: 1.7;
+}
+
+/* Phần đầu trang */
+header {
+    background-color: #7d684d;
+    color: white;
+    text-align: center;
+    padding: 40px 15px;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 38px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+header p {
+    font-size: 17px;
+    font-style: italic;
+}
+
+/* Thanh menu */
+nav {
+    background-color: #d8c8ad;
+    text-align: center;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #493b2c;
+    font-weight: bold;
+    margin: 0 12px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #a35e30;
+}
+
+/* Các phần nội dung */
+section {
+    width: 85%;
+    max-width: 950px;
+    margin: 35px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #e2d7c6;
+}
+
+h2 {
+    color: #90683f;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 27px;
+    border-bottom: 2px solid #d8c8ad;
+    padding-bottom: 10px;
+}
+
+/* Hình ảnh minh họa */
+.anh-minh-hoa {
+    display: block;
+    width: 80%;
+    max-width: 650px;
+    height: 280px;
+    object-fit: cover;
+    margin: 25px auto;
+    border-radius: 12px;
+    border: 3px solid #d8c8ad;
+}
+
+/* Nội dung bài thơ */
+.poem {
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size: 22px;
+    line-height: 1.9;
+    color: #493b2c;
+    padding: 15px;
+}
+
+.poem-title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #9b6738;
+}
+
+.author {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+    font-size: 18px;
+}
+
+/* Phần cảm nhận */
+.feeling {
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+/* Phần thông tin */
+.info {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Chân trang */
+footer {
+    background-color: #7d684d;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 40px;
+    line-height: 1.8;
+}
+
+/* Nút trở về đầu trang */
+.top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #9b7952;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+/* Hiển thị trên điện thoại */
+@media screen and (max-width: 600px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 7px;
+        font-size: 14px;
+    }
+
+    section {
+        width: 94%;
+        padding: 15px;
+    }
+
+    .poem {
+        font-size: 19px;
+        padding: 5px;
+    }
+
+    .anh-minh-hoa {
+        width: 100%;
+     height: 200px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+}
+
+</style>
+</head>
+
+<body id="top">
+
+<!-- PHẦN ĐẦU TRANG -->
+<header>
+    <h1>THẾ GIỚI VĂN HỌC</h1>
+    <p>Khám phá vẻ đẹp của thi ca Việt Nam</p>
+</header>
+
+<!-- THANH ĐIỀU HƯỚNG -->
+<nav>
+    <a href="#trangchu">Trang chủ</a>
+    <a href="#gioithieu">Giới thiệu</a>
+    <a href="#tacpham">Tác phẩm</a>
+    <a href="#camnhan">Cảm nhận</a>
+    <a href="#tacgia">Tác giả</a>
+</nav>
+
+<!-- TRANG CHỦ -->
+<section id="trangchu">
+    <h2>Chào mừng đến với trang văn học</h2>
+
+    <p class="feeling">
+        Văn học là thế giới của cảm xúc, nơi con người gửi gắm
+        những suy nghĩ, tình cảm và vẻ đẹp của cuộc sống.
+        Mỗi bài thơ đều mang đến những thông điệp ý nghĩa,
+        giúp chúng ta cảm nhận sâu sắc hơn về thiên nhiên
+        và con người.
+    </p>
+
+    <img class="anh-minh-hoa"
+    src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1000"
+    alt="Phong cảnh thiên nhiên">
+</section>
+
+<!-- GIỚI THIỆU -->
+<section id="gioithieu">
+    <h2>Giới thiệu tác phẩm</h2>
+
+    <p class="feeling">
+        "Sang thu" là một bài thơ tiêu biểu của nhà thơ Hữu Thỉnh.
+        Tác phẩm thể hiện những cảm nhận tinh tế của tác giả
+        trước khoảnh khắc giao mùa từ hạ sang thu.
+        Qua những hình ảnh thiên nhiên gần gũi, bài thơ
+        đem đến cho người đọc cảm giác nhẹ nhàng và sâu lắng.
+    </p>
+</section>
+
+<!-- NỘI DUNG BÀI THƠ -->
+<section id="tacpham">
+    <h2>Tác phẩm văn học</h2>
+
+    <div class="poem-title">SANG THU</div>
+    <div class="author">Tác giả: Hữu Thỉnh</div>
+
+    <img class="anh-minh-hoa"
+    src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1000"
+    alt="Cảnh mùa thu">
+
+    <div class="poem">
+        Bỗng nhận ra hương ổi<br>
+        Phả vào trong gió se<br>
+        Sương chùng chình qua ngõ<br>
+        Hình như thu đã về<br><br>
+
+        Sông được lúc dềnh dàng<br>
+        Chim bắt đầu vội vã<br>
+        Có đám mây mùa hạ<br>
+        Vắt nửa mình sang thu<br><br>
+
+        Vẫn còn bao nhiêu nắng<br>
+        Đã vơi dần cơn mưa<br>
+        Sấm cũng bớt bất ngờ<br>
+        Trên hàng cây đứng tuổi
+    </div>
+</section>
+
+<!-- CẢM NHẬN -->
+<section id="camnhan">
+    <h2>Cảm nhận về bài thơ</h2>
+
+    <p class="feeling">
+        Bài thơ "Sang thu" đã thể hiện những cảm nhận tinh tế
+        của nhà thơ trước sự thay đổi của đất trời.
+        Hình ảnh hương ổi, làn gió se và màn sương
+        gợi lên khung cảnh mùa thu dịu dàng, thơ mộng.
+        Qua đó, tác giả không chỉ miêu tả vẻ đẹp thiên nhiên
+     mà còn gửi gắm những suy ngẫm sâu sắc về cuộc đời.
+    </p>
+</section>
+
+<!-- THÔNG TIN TÁC GIẢ -->
+<section id="tacgia">
+    <h2>Thông tin tác giả</h2>
+
+    <div class="info">
+        <p><b>Tác giả:</b> Hữu Thỉnh</p>
+        <p><b>Tác phẩm:</b> Sang thu</p>
+        <p><b>Thể thơ:</b> Năm chữ</p>
+        <p><b>Chủ đề:</b> Thiên nhiên và khoảnh khắc giao mùa</p>
+    </div>
+</section>
+
+<!-- CHÂN TRANG -->
+<footer>
+    <h3>WEBSITE GIỚI THIỆU VĂN HỌC</h3>
+    <p>Người thực hiện: Nguyễn Thị Bích Nga</p>
+    <p>Lớp 12A4</p>
+    <p>Trường trung học cơ sở và phổ thông An Lương</p>
+    <p>© 2026 - Sản phẩm học tập môn Tin học 12</p>
+</footer>
+
+<a href="#top" class="top">↑ Đầu trang</a>
+
+</body>
+</html> 
